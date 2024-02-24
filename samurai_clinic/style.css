@@ -27,10 +27,19 @@ header > div {
 }
 #top-nav {
   width: 704px;
+  height: 44px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
-#top-nav a {
+#top-nav > nav {
+  width: 71%;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#top-nav nav a {
   text-decoration: none;
   color: #FFFFFF;
   font-family: Noto Sans JP;
@@ -41,8 +50,14 @@ header > div {
   text-align: center;
 }
 #nav-contact {
+  padding: 10px;
   background-color: #0C4324;
+  text-decoration: none;
+  color: #FFFFFF;
+  font-family: Noto Sans JP;
+  font-size: 14px;
   font-weight: 700;
+  letter-spacing: 0em;
   border-radius: 4px;
 }
 #Frame_2557 {
@@ -93,9 +108,9 @@ header > div {
   text-align: center;
 }
 
-/* section 2 */
+/* section 2 in index.html */
 #Feature_list_left {
-  background-image: url(images/Title.png), url(images/Title.png), url(images/BGicon-1.png), url(images/BGicon-2.png), url(images/Vector.png), url(images/Union.png);
+  background-image: url(images/Title_contact.png), url(images/Title_contact.png), url(images/BGicon-1.png), url(images/BGicon-2.png), url(images/Vector.png), url(images/Union.png);
   background-repeat: no-repeat;
   background-position: top 201px left 125px, top 1126px left 125px, top 521px left 840px, top 1421px left 840px, top 893px left 0px, top 922px left 0px;
   width: 100%;
@@ -548,6 +563,7 @@ footer {
   line-height: 17px;
   letter-spacing: 0em;
   text-align: center;
+  color: #FFFFFF;
 }
 
 /* about.html */
@@ -609,21 +625,25 @@ footer {
   position: relative;
   width: 100%;
   height: 881px;
-  background-image: url(images/Title.png), url(images/BGicon-1.png);
+  background-image: url(images/Title_contact.png), url(images/BGicon-1.png);
   background-repeat: no-repeat;
   background-position: top 201px left 125px, top 521px left 840px;
 }
 #feature_list-2 {
+  position: relative;
   width: 100%;
   height: 820px;
   background-image: url("images/Title_Flow.png"), url("images/BGicon-1.png");
   background-repeat: no-repeat;
-  background-position: top 201px left 125px, top 521px left 840px;
+  background-position: top 201px left 125px, top 458px left 897px;
 }
 #Frame_2555-about {
+  position: absolute;
+  top: 120px;
+  left: 18.8%;
   width: 62.5%;
   height: 580px;
-  margin: 120px auto 0px auto;
+  margin: 0px auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -684,14 +704,86 @@ footer {
   position: absolute;
   top: 0px;
   left: 189px;
+  z-index: 10;
 }
 #Flow_img-2 {
   position: absolute;
-  top: 0px;
-  left: 189px;
+  top: 56.3px;
+  left: 0px;
+  z-index: 9;
 }
 #Flow_img-3 {
   position: absolute;
-  top: 0px;
-  left: 189px;
+  top: 317px;
+  left: 254px;
+  z-index: 10;
+}
+#feature_list-3 {
+  position: relative;
+  width: 100%;
+  height: 703px;
+}
+#Frame_2286-3 {
+  position: absolute;
+  top: 62px;
+  left: 8.8%;
+  width: 82.5%;
+  height: 626px;
+  margin: 0 auto;
+}
+#Frame_2126-2 {
+  width: 64.4%;
+  height: 104px;
+  margin: 0 auto;
+}
+#Head_02-about p {
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #468459;
+  display: inline;
+}
+#Head_02-about {
+  width: 41.8%;
+  height: 24px;
+  margin: 0 auto;
+}
+#feature_list-3-p {
+  width: 100%;
+  height: 60px;
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #468459;
+}
+#Frame_2286-4 {
+  position: absolute;
+  top: 168px;
+  left: 0px;
+  width: 100%;
+  height: 458px;
+  display: flex;
+  justify-content: space-between;
+}
+#Frame_2286-4 div {
+  width: 30.3%;
+  height: 458px;
+}
+#Frame_2286-4 div img {
+  border-radius: 24px;
+}
+#Frame_2286-4 div p {
+  font-family: Noto Sans JP;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #000000;
 }
