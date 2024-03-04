@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SAMURAI 整体院</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style_small.css">
 </head>
 <body>
   <header id="header_top-contact">
@@ -54,7 +55,9 @@
           <div id="Frame_2120-contact-p1"><p>ご予約・お問い合わせフォーム</p></div>
           <div id="Frame_2120-contact-p2"><p>※ 2営業日以内にご返信いたします。</p></div>
         </div>
-        <form id="Frame_2306">
+        <form id="Frame_2306" action="contact_complete.html" method="post">
+          <!-- indicate action, method -->
+          <!-- validation !! cannot post until filling up completely -->
           <div class="form_text">
             <label for="name">氏名（必須）</label><br>
             <input type="text" placeholder="侍　太郎">
@@ -64,10 +67,12 @@
             <input type="text" placeholder="サムライ　タロウ">
           </div>
           <div class="form_text">
+            <!-- number validation !!  starting from "0.." -->
             <label for="number">電話番号（必須）</label><br>
             <input type="text" placeholder="0312345678">
           </div>
           <div class="form_text">
+            <!-- mail address validation !! including "@" -->
             <label for="address">メールアドレス（必須）</label><br>
             <input type="text" placeholder="samurai-chiropractic@example.com ">
           </div>
@@ -87,9 +92,13 @@
           </div>
           <div id="form-message">
             <label for="message">お問い合わせ内容</label><br>
-            <input type="text" placeholder="できるだけ詳しいお問い合わせ内容を記入してください">
+            <!-- <input type="text" placeholder="できるだけ詳しいお問い合わせ内容を記入してください"> -->
+            <textarea type="text" placeholder="できるだけ詳しいお問い合わせ内容を記入してください"></textarea>
           </div>
           <div id="form-button">
+            <!-- <input type="submit"> -->
+            <!-- input submit -->
+            <!-- <a href="contact_complete.html"><button>送信</button></a> -->
             <a href="contact_complete.html"><button>送信</button></a>
           </div>
         </form>
