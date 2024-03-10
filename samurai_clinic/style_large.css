@@ -1,97 +1,6 @@
 /* make commons into shorter using multiple "class" */
 /* making more comment out */
 
-/* index.html > Frame_2557 */
-#Frame_2557 {
-  width: 85%;
-  margin: 0 auto;
-}
-#Frame_2120 p {
-  margin: 0;
-  color: #468459;
-  display: inline-block;
-}
-#Frame_2120-1{
-  font-family: Noto Sans JP;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-#Frame_2540 {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 26px;
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 23px;
-  letter-spacing: 0em;
-  text-align: left;
-}
-#Frame_2540 p {
-  margin: 0px;
-}
-#Frame_2540 img {
-  margin: 0px 10px;
-}
-#Frame_2268 {
-  font-family: Noto Sans JP;
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 20px;
-  letter-spacing: 0em;
-  text-align: center;
-}
-#Frame_2268 a {
-  text-decoration: none;
-  color: #000000;
-}
-/* index.html > content */
-#concept, #tokuchou {
-  font-family: Noto Sans JP;
-  font-size: 24px;
-  line-height: 24px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #468459;
-}
-#concept {
-  font-weight: 700;
-}
-#tokuchou {
-  font-weight: 400;
-}
-#concept {
-  font-size: 24px;
-  font-weight: 700;
-}
-#tokuchou {
-  font-size: 18px;
-  font-weight: 400;
-}
-#content-2 {
-  font-family: Noto Sans JP;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 54px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #468459;
-}
-#content-3 {
-  font-family: Noto Sans JP;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
-  color: #000000;
-}
-
-
 @media screen and (min-width: 768px) {
   /* common properties */
   body {
@@ -319,45 +228,16 @@
     display: flex;
     justify-content: space-between;
   }
+  /* inside Frame_2285 */
   #Frame_2283, #Frame_2284 {
     position: relative;
     width: 45%;
     height: 490px;
   }
-  #Frame_2283 img, #Frame_2284 img {
-    border-radius: 24px;
-  }
-  .Frame_2282 {
-    margin-top: 38px;
-  }
-  .Frame_2282 p {
-    font-family: Noto Sans JP;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #0C4324;
-  }
-  .Frame_2282 ul {
-    font-family: Noto Sans JP;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
-  }
-  .Frame_2282 ul li {
-    margin-bottom: 13px;
-  }
   #btn_to_course {
     width: 100%;
     height: 64px;
     position: relative;
-  }
-  #btn_to_course img {
-    position: absolute;
     top: 32px;
     left: 38%;
   }
@@ -373,12 +253,9 @@
   .oval {
     width: 46.9%;
     height: 488px;
-    background-color: #ffffff;
     margin: 0 auto;
-    position: absolute;
     top: 199px;
     left: 26.5%;
-    border-radius: 50%;
   }
   #Frame_2286-2 {
     position: absolute;
@@ -399,25 +276,15 @@
     margin: 0 auto;
   }
   #Frame_2126-2-1 p {
-    font-family: Noto Sans JP;
     font-size: 24px;
-    font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    display: inline;
-    color: #468459;
   }
   #Frame_2126-2-2 {
     margin-top: 20px;
     width: 100%;
     height: 60px;
-    font-family: Noto Sans JP;
     font-size: 24px;
-    font-weight: 700;
     line-height: 30px;
-    letter-spacing: 0em;
-    text-align: center;
     color: #468459;
   }
   #Frame_2551 {
@@ -1641,7 +1508,6 @@
     line-height: 22px;
     letter-spacing: 0px;
     text-align: left;
-    vertical-align:baseline; /* ??? */
     color: #0000005C;
   }
   #form-button {

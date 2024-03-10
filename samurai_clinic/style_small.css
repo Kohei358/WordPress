@@ -5,7 +5,7 @@
     min-width: 375px;
   }
   /* index.html */
-  /* header */
+  /* header in index.html */
   #menu_bar {
     display: block;
     width: 7.5%;
@@ -18,10 +18,10 @@
     width: 100%;
     height: 464px;
     margin-bottom: 72px;
-    background-image: url(images/Group\ 2129.png), url(images/index_top-sp.png), url(images/_x31_3.png);
+    background-image: url(images/Group\ 2129.png), url(images/index_top-sp.png), url(images/_x31_3.png);/* ??? */
     background-repeat: no-repeat;
     background-position: top 12.95px left -11.84px, top 0px left 133px, top -38px left 101px;
-    object-position: 0px 0px, 0px 0px, 0px 0px;
+    object-position: 0px 0px, 0px 0px, 0px 0px;/* ??? */
     object-fit: none;
   }
   #header_top > div {
@@ -36,7 +36,7 @@
     height: 26px;
   }
 
-  /* section 1 */
+  /* section 1 in index.html */
   #Frame_2557 {
     display: none;
   }
@@ -86,17 +86,20 @@
     text-decoration: none;
     color: #0C4324;
   }
-  /* section id="Feature_list_left" */
+  /* Feature_list_left in index.html */
   #Feature_list_left {
+    background-image: url(images/Title_contact.png), url(images/Title_contact.png), url(images/BGicon-1.png), url(images/BGicon-2.png), url(images/Union-sp.png), url(images/Union-sp.png);
+    background-repeat: no-repeat;
+    background-position: top 201px left 125px, top 1126px left 125px, top 521px left 840px, top 1421px left 840px, top 1002px left 0px, top 992px left 320px;
     position: relative;
     width: 100%;
-    height: 1012px;
+    height: 2312px;
   }
   #Frame_2555 {
     width: 90%;
     height: 884px;
   }
-  /* #concept_img */
+  /* #concept_img in index.html */
   #concept_img {
     position: absolute;
     top: 64px;
@@ -170,10 +173,131 @@
   }
   #content-4 {
     position: absolute;
-    top: 493px;
+    top: 473px;
     left: 24%;
     width: 155px;
     height: 32px;
   }
-}
 
+  /* Frame_2286 in index.html */
+  #Frame_2286 {
+    width: 90%;
+    height: 1055px;
+    position: relative;
+    top: 186px;
+    left: 5%;
+  }
+  #Frame_2126 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #Head_02 {
+    width: 75%;
+    height: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #Head_02 > p {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #468459;
+    display: inline-block;
+    margin: 0;
+  }
+  #Frame_2126 > p {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #468459;
+  }
+  #Frame_2283, #Frame_2284 {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    width: 90%;
+    height: 470px;
+  }
+  #Frame_2283 img, #Frame_2284 {
+    height: 220px;
+  }
+
+  #btn_to_course {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    width: 191px;
+    height: 32px;
+    margin: 0 auto;
+  }
+
+
+  /* Frame_2558 in index.html */
+  #Frame_2558 {
+    position: relative;
+    top: -130px;
+    width: 100%;
+    height: 1344px;
+    background-image: url("images/batch_benjamin-wedemeyer-1rdB14ttWgQ-unsplash 1-sp.png");
+    background-position: top 0px left 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .oval {
+    width: 78.8%;
+    height: 205px;
+    top: 309px;
+    left: 10%;
+  }
+  #Frame_2286-2 {
+    position: relative;
+    top: 350px;
+    left: 0%;
+  }
+  #Frame_2126-2-1 {
+    width: 36%;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    left: 0%;
+  }
+  #Frame_2126-2-1 p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #Frame_2126-2-2 {
+    margin: 20px auto 0px;
+    width: 70%;
+    height: 60px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  #Frame_2551 {
+    width: 100%;
+    height: 1215px;
+  }
+
+  /* access in index.html */
+  #access {
+    width: 100%;
+    height: 764px;
+    position: relative;
+    top: 350px;
+    left: 0px;
+  }
+
+  /* footer in index.html */
+  footer {
+    position: relative;
+    top: 300px;
+    left: 0px;
+  }
+}
