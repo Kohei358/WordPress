@@ -281,23 +281,119 @@
     line-height: 23px;
   }
   #Frame_2551 {
-    width: 100%;
+    width: 80%;
     height: 1215px;
+    margin: 0 auto;
+  }
+  .top_user {
+    width: 100%;
+    height: 422px;
+  }
+  .top_user_img {
+    width: 100%;
+    height: 188px;
+  }
+  .top_user_img img {
+    position: relative;
+    left: 20%;
+    width: 62.5%;
+  }
+  #btn_to_voice {
+    width: 48.2%;
   }
 
   /* access in index.html */
   #access {
+    padding: 100px 0px 0px;
     width: 100%;
     height: 764px;
     position: relative;
-    top: 350px;
+    top: 330px;
     left: 0px;
+    background-image: url("images/Union.png"), url("images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: top -30px left 0px, top -50px left 0px;
+  }
+  #Frame_2560 {
+    width: 100%;
+    height: 764px;
+  }
+
+  #head_contact p {
+    margin: 0px 12px;
+    font-size: 18px;
+    line-height: 18px;
+    vertical-align: super;
+  }
+  #contact_content-1 {
+    width: 85%;
+    margin: 40px 15px 10px 20px;
+  }
+  #contact_content-1 p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #contact_content-2 {
+    width: 80%;
+    height: 69px;
+    margin: 0px auto 20px;
+  }
+  #contact_content-3 {
+    padding-left: 20px;
+  }
+  #contact_content-4 img {
+    width: 100%;
+    max-width: 90%;
+    position: relative;
+    top: 0;
+    left: 5%;
+    margin-bottom: 20px;
+  }
+  #contact_map {
+    width: 90%;
+    height: 337px;
+    position: relative;
+    top: 0px;
+    left: 5%;
+  }
+  iframe {
+    max-width: 100%;
+    max-height: 100%;
   }
 
   /* footer in index.html */
   footer {
+    width: 100%;
+    height: 530px;
     position: relative;
     top: 300px;
     left: 0px;
+    background-image: url('images/Union.png');
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+  }
+  #btn_to_top {
+    position: relative;
+    top: 380px;
+    left: 80%;
+  }
+  #Frame_2259-2 {
+    width: 66%;
+    margin: 0 auto 30px;
+  }
+  #nav-footer-2 nav a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #0C4324;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  #copyright {
+    margin-top: 50px;
   }
 }
