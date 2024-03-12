@@ -400,7 +400,7 @@
   }
 
   /* about.html */
-  #header_about {
+  #header-about {
     width: 1280px;
     height: 400px;
     background-image: url("images/about_logo.png"), url("images/about_top.png"), url("images/_x31_3.png");
@@ -1507,4 +1507,462 @@
     text-align: center;
     color: #FFFFFF;  
   }
+}
+@media screen and (max-width: 767px) {
+  /* common properties */
+  body {
+    margin: 0;
+    min-width: 375px;
+  }
+  /* index.html */
+  /* header in index.html */
+  #menu_bar {
+    display: block;
+    width: 7.5%;
+    height: 24px;
+  }
+  .top-nav-pc {
+    display: none;
+  }
+  .top-nav-sp {
+    width: 320px;
+    height: 502px;
+    position: fixed;
+    z-index: 100;
+    top: 1rem;
+    padding: 4px;
+    border: black solid 1px;
+    background: #fff;
+    cursor: pointer;
+  }
+  .top-nav-sp-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+  #top-nav-sp-img img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  #header_top {
+    width: 100%;
+    height: 464px;
+    margin-bottom: 72px;
+    background-image: url(images/Group\ 2129.png), url(images/index_top-sp.png), url(images/_x31_3.png);/* ??? */
+    background-repeat: no-repeat;
+    background-position: top 12.95px left -11.84px, top 0px left 133px, top -38px left 101px;
+    object-position: 0px 0px, 0px 0px, 0px 0px;/* ??? */
+    object-fit: none;
+  }
+  .header_all > div {
+    height: 64px;
+    padding: 18px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .top-nav-sp {
+    display: none;
+  }
+  #txt_menu {
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0C4324;
+  }
+  #top-nav-sp-text {
+    width: 80%;
+    height: 374px;
+    margin: 0 auto;
+  }
+  .top-nav-sp nav a {
+    display: block;
+    text-decoration: none;
+    color: #0d0d0d;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 32px;
+  }
+  .nav-contact {
+    padding: 10px 20%;
+  }
+  #frame2259 {
+    width: 62.3%;
+    height: 26px;
+  }
+  .showMenu {
+    transform: translateY(0);
+  }
+
+  /* section 1 in index.html */
+  #Frame_2557 {
+    display: none;
+  }
+  #Frame_2557-sp {
+    width: 90%;
+    height: 148px;
+    margin: 0 auto;
+    margin-top: 18px;
+  }
+  #Frame_2120-1-sp {
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #468459;
+  }
+  #Frame_2120-2-sp {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #468459;
+  }
+  #Frame_2540-sp {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #Frame_2540-sp p {
+    margin: 0;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+  #Frame_2268-sp {
+    text-align: right;
+    color: #0C4324;
+  }
+  #Frame_2268-sp p a {
+    text-decoration: none;
+    color: #0C4324;
+  }
+  /* Feature_list_left in index.html */
+  #Feature_list_left {
+    background-image: url(images/Title_contact.png), url(images/Title_contact.png), url(images/BGicon-1.png), url(images/BGicon-2.png), url(images/Union-sp.png), url(images/Union-sp.png);
+    background-repeat: no-repeat;
+    background-position: top 201px left 125px, top 1126px left 125px, top 521px left 840px, top 1421px left 840px, top 1002px left 0px, top 992px left 320px;
+    position: relative;
+    width: 100%;
+    height: 2312px;
+  }
+  #Frame_2555 {
+    width: 90%;
+    height: 884px;
+  }
+  /* #concept_img in index.html */
+  #concept_img {
+    position: relative;
+    top: 64px;
+    left: 15%;
+    width: 97%;
+    height: 315px;
+  }
+  #concept_img-1 {
+    position: absolute;
+    top: 0px;
+    left: 136px;
+    z-index: 11;
+  }
+  #concept_img-2 {
+    position: absolute;
+    top: 41px;
+    left: 17px;
+    z-index: 10;
+  }
+  #concept_img-3 {
+    position: absolute;
+    top: 179px;
+    left: 173px;
+    z-index: 11;
+  }
+  #concept_img-1 img {
+    width: 105px;
+    height: 105px;
+  }
+  #concept_img-2 img {
+    width: 210px;
+    height: 233px;
+  }
+  #concept_img-3 img {
+    width: 105px;
+    height: 136px;
+  }
+  #concept_img-1 img, #concept_img-3 img {
+    border-radius: 8px;
+  }
+  #concept_img-2 img {
+    border-radius: 17px;
+  }
+
+  /* content */
+  #content {
+    position: absolute;
+    top: 429px;
+    left: 5%;
+    width: 97%;
+    height: 537px;
+  }
+  #content-1 p {
+    margin: 0;
+  }
+  #concept {
+    display: inline;
+  }
+  #content-2 {
+    display: none;
+  }
+  #content-2-sp {
+    width: 90%;
+    font-family: Noto Sans JP;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #468459;
+  }
+  #content-4 {
+    position: absolute;
+    top: 473px;
+    left: 24%;
+    width: 155px;
+    height: 32px;
+  }
+
+  /* Frame_2286 in index.html */
+  #Frame_2286 {
+    width: 90%;
+    height: 1055px;
+    position: relative;
+    top: 186px;
+    left: 5%;
+  }
+  #Frame_2126 {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #Head_02 {
+    width: 75%;
+    height: 24px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  #Head_02 > p {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #468459;
+    display: inline-block;
+    margin: 0;
+  }
+  #Frame_2126 > p {
+    font-family: Noto Sans JP;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #468459;
+  }
+  #Frame_2283, #Frame_2284 {
+    position: relative;
+    top: 0px;
+    left: 10%;
+    width: 90%;
+    height: 470px;
+  }
+  #Frame_2283 img, #Frame_2284 {
+    height: 220px;
+  }
+
+  #btn_to_course {
+    position: relative;
+    top: 240px;
+    left: 0px;
+    width: 191px;
+    height: 32px;
+    margin: 0 auto;
+  }
+
+
+  /* Frame_2558 in index.html */
+  #Frame_2558 {
+    position: relative;
+    top: -130px;
+    width: 100%;
+    height: 1344px;
+    background-image: url("images/batch_benjamin-wedemeyer-1rdB14ttWgQ-unsplash 1-sp.png");
+    background-position: top 0px left 0px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  .oval {
+    width: 78.8%;
+    height: 205px;
+    top: 309px;
+    left: 10%;
+  }
+  #Frame_2286-2 {
+    position: relative;
+    top: 350px;
+    left: 0%;
+  }
+  #Frame_2126-2-1 {
+    width: 36%;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    left: 0%;
+  }
+  #Frame_2126-2-1 p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #Frame_2126-2-2 {
+    margin: 20px auto 0px;
+    width: 70%;
+    height: 60px;
+    font-size: 18px;
+    line-height: 23px;
+  }
+  #Frame_2551 {
+    width: 80%;
+    height: 1215px;
+    margin: 0 auto;
+  }
+  .top_user {
+    width: 100%;
+    height: 422px;
+  }
+  .top_user_img {
+    width: 100%;
+    height: 188px;
+  }
+  .top_user_img img {
+    position: relative;
+    left: 20%;
+    width: 62.5%;
+  }
+  #btn_to_voice {
+    width: 48.2%;
+  }
+
+  /* access in index.html */
+  #access {
+    padding: 100px 0px 0px;
+    width: 100%;
+    height: 764px;
+    position: relative;
+    top: 330px;
+    left: 0px;
+    background-image: url("images/Union.png"), url("images/Vector.png");
+    background-repeat: no-repeat;
+    background-position: top -30px left 0px, top -50px left 0px;
+  }
+  #Frame_2560 {
+    width: 100%;
+    height: 764px;
+  }
+
+  #head_contact p {
+    margin: 0px 12px;
+    font-size: 18px;
+    line-height: 18px;
+    vertical-align: super;
+  }
+  #contact_content-1 {
+    width: 85%;
+    margin: 40px 15px 10px 20px;
+  }
+  #contact_content-1 p {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #contact_content-2 {
+    width: 80%;
+    height: 69px;
+    margin: 0px auto 20px;
+  }
+  #contact_content-3 {
+    padding-left: 20px;
+  }
+  #contact_content-4 img {
+    width: 100%;
+    max-width: 90%;
+    position: relative;
+    top: 0;
+    left: 5%;
+    margin-bottom: 20px;
+  }
+  #contact_map {
+    width: 90%;
+    height: 337px;
+    position: relative;
+    top: 0px;
+    left: 5%;
+  }
+  iframe {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  /* footer in index.html */
+  footer {
+    width: 100%;
+    height: 530px;
+    position: relative;
+    top: 300px;
+    left: 0px;
+    background-image: url('images/Union.png');
+    background-repeat: no-repeat;
+    background-position: 0px -60px;
+  }
+  #btn_to_top {
+    position: relative;
+    top: 380px;
+    left: 80%;
+  }
+  #Frame_2259-2 {
+    width: 66%;
+    margin: 0 auto 30px;
+  }
+  #nav-footer-2 nav a {
+    display: block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #0C4324;
+    font-family: Noto Sans JP;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  #copyright {
+    margin-top: 50px;
+  }
+
+  /* about.html */
+  /* header in about.html */
+
 }
