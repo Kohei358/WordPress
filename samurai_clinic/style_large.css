@@ -400,6 +400,7 @@
   }
 
   /* about.html */
+  /* header in about.html */
   #header-about {
     width: 1280px;
     height: 400px;
@@ -410,6 +411,7 @@
   #top-nav-about nav a {
     color: #468459;
   }
+  /* page directory in about.html */
   #posts_sqaure {
     position: relative;
     width: 100%;
@@ -423,30 +425,14 @@
     height: 20px;
   }
   .nav_parent {
-    display: inline;
-    margin: 0;
     color: #000000DE;
-    font-family: Noto Sans JP;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
   }
   .nav_parent a {
     text-decoration: none;
     color: #000000;
   }
   .nav_current {
-    display: inline;
-    margin: 0;
     color: #0C4324;
-    font-family: Noto Sans JP;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 20px;
-    letter-spacing: 0em;
-    text-align: left;
   }
   #feature_list-1 {
     position: relative;
@@ -457,11 +443,8 @@
     background-position: top 201px left 125px, top 521px left 840px;
   }
   #feature_list-2 {
-    position: relative;
-    width: 100%;
     height: 820px;
     background-image: url("images/Title_Flow.png"), url("images/BGicon-1.png");
-    background-repeat: no-repeat;
     background-position: top 201px left 125px, top 458px left 897px;
   }
   #Frame_2555-about {
@@ -483,24 +466,6 @@
   #head_01-about {
     width: 37.5%;
     height: 58px;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    font-family: Noto Sans JP;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #468459;
-  }
-  #flow {
-    display: inline;
-    margin: 0;
-  }
-  #nagare {
-    margin: 10px 0px 0px 0px;
-    font-weight: 400;
   }
   #flow-list {
     position: absolute;
@@ -508,19 +473,6 @@
     left: 0px;
     width: 100%;
     height: 202px;
-  }
-  #flow-list ol  {
-    padding-inline-start: 21px;
-  }
-  #flow-list ol li {
-    margin-bottom: 23px;
-    font-family: Noto Sans JP;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 22px;
-    letter-spacing: 0em;
-    text-align: left;
-    color: #000000;
   }
   #Group_2126 {
     position: relative;
@@ -545,6 +497,7 @@
     left: 254px;
     z-index: 10;
   }
+  /* feature_list-3 in about.html */
   #feature_list-3 {
     position: relative;
     width: 100%;
@@ -564,30 +517,18 @@
     margin: 0 auto;
   }
   #Head_02-about p {
-    font-family: Noto Sans JP;
     font-size: 24px;
-    font-weight: 700;
     line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #468459;
-    display: inline;
-  }
+  }  
   #Head_02-about {
     width: 41.8%;
     height: 24px;
     margin: 0 auto;
   }
   #feature_list-3-p {
+    font-size: 24px;
     width: 100%;
     height: 60px;
-    font-family: Noto Sans JP;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 30px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #468459;
   }
   #Frame_2286-4 {
     position: absolute;
@@ -598,22 +539,18 @@
     display: flex;
     justify-content: space-between;
   }
-  #Frame_2286-4 div {
+  #Frame_2286-4 > div p {
+    font-size: 24px;
+    line-height: 24px;
+  }
+  #Frame_2286-4 > div {
     width: 30.3%;
     height: 458px;
   }
-  #Frame_2286-4 div img {
+  #Frame_2286-4 > div img {
     border-radius: 24px;
   }
-  #Frame_2286-4 div p {
-    font-family: Noto Sans JP;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: 0em;
-    text-align: center;
-    color: #000000;
-  }
+  
 
   /* course.html */
   #header_top-course {
@@ -1709,9 +1646,9 @@
     border-radius: 17px;
   }
 
-  /* content */
+  /* content in index.html */
   #content {
-    position: absolute;
+    position: relative;
     top: 429px;
     left: 5%;
     width: 97%;
@@ -1810,7 +1747,7 @@
     position: relative;
     top: -130px;
     width: 100%;
-    height: 1344px;
+    height: 1644px;
     background-image: url("images/batch_benjamin-wedemeyer-1rdB14ttWgQ-unsplash 1-sp.png");
     background-position: top 0px left 0px;
     background-repeat: no-repeat;
@@ -1873,7 +1810,7 @@
     width: 100%;
     height: 764px;
     position: relative;
-    top: 330px;
+    top: 0px;
     left: 0px;
     background-image: url("images/Union.png"), url("images/Vector.png");
     background-repeat: no-repeat;
@@ -1931,7 +1868,7 @@
     width: 100%;
     height: 530px;
     position: relative;
-    top: 300px;
+    top: -25px;
     left: 0px;
     background-image: url('images/Union.png');
     background-repeat: no-repeat;

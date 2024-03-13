@@ -1,6 +1,13 @@
 @media screen and (max-width: 767px) {
   /* about.html */
   /* header in about.html */
+  .white_rectangle {
+    width: 100%;
+    height: 64px;
+    position: fixed;
+    background-color: #fff;
+    z-index: 10;
+  }
   #header-about {
     /* position: relative;
     top: 64px;
@@ -9,8 +16,141 @@
     height: 424px;
     background-image: url("images/about_logo.png"), url("images/about_top-sp.png"), url("images/_x31_3.png");
     background-repeat: no-repeat;
-    background-position: top 315px left 0px, top 64px left 88px, top -180px left 12px;
+    background-position: top 265px left -30px, top 64px left 88px, top -180px left 48px;
     max-width: 360px;
   }
-  
+  .on_the_rec {
+    position: relative;
+    z-index: 10;
+  }
+  .top_Frame-sp {
+    position: relative;
+    top: 13px;
+    left: 10px;
+  }
+  #menu_bar {
+    width: 24px;
+    position: relative;
+    top: -5px;
+    left: 90%;
+  }
+  #posts_sqaure {
+    width: 100%;
+    height: 44px;
+    padding: 0px 25px;
+  }
+  #topnav_01 {
+    position: relative;
+    top: 10px;
+  }
+  .nav_parent a {
+    color: #000000;
+    text-decoration: none;
+  }
+  #feature_list-1 {
+    width: 100%;
+    height: 980px;
+  }
+  #Frame_2555 {
+    position: relative;
+  }
+  #concept_img {
+    position: absolute;
+    top: 64px;
+    left: 5%;
+  }
+  #feature_list-2 {
+    height: 770px;
+    top: 0;
+    left: 0;
+    background-image: url("images/Title_Flow.png"), url("images/BGicon-1.png");
+    background-position: top 0px left 0px, top 0px left 0px;
+  }
+  #Frame_2555-about {
+    position: absolute;
+    top: 64px;
+    left: 5%;
+    width: 88%;
+    height: 633px;
+  }
+  #Group_2126 {
+    width: 100%;
+    height: 315px;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  #Flow_img-1 {
+    width: 105px;
+    height: 105px;
+    position: absolute;
+    top: 0px;
+    left: 136px;
+    z-index: 10;
+  }
+  #Flow_img-2 {
+    width: 210px;
+    height: 233px;
+    position: absolute;
+    top: 41px;
+    left: 0px;
+    z-index: 9;
+  }
+  #Flow_img-3 {
+    width: 105px;
+    height: 136px;
+    position: absolute;
+    top: 179px;
+    left: 173px;
+    z-index: 10;
+  }
+  #content-about {
+    position: absolute;
+    top: 347px;
+    left: 0px;
+  }
+  #flow-list {
+   position: relative;
+   top: 80px;
+  }
+  /* feature_list-3 in about.html */
+  #Head_02-about {
+    width: 70%;
+    margin: 0 auto;
+  }
+  #Head_02-about > img {
+    height: 18px;
+  }
+  #Head_02-about p {
+    font-size: 18px;
+    line-height: 18px;
+    margin: 0 18px;
+  }
+  #feature_list-3-p {
+    width: 70%;
+    margin: 0 auto;
+    font-size: 18px;
+  }
+  #Frame_2286-4 {
+    width: 90%;
+    height: 1089px;
+    margin: 0 auto;
+  }
+  #Frame_2286-4 > div {
+    width: 100%;
+    margin-bottom: 44px;
+  }
+  #Frame_2286-4 > div img {
+    position: relative;
+    top: 0;
+    left: 5%;
+    width: 288px;
+    height: 288px;
+    border-radius: 18px;
+  }
+  #Frame_2286-4 p {
+    font-size: 18px;
+    line-height: 18px;
+    margin-top: 16px;
+  }
 }
